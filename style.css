@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('fonts/Vazir-Thin.woff');
+}
+body{
+    background-color: #fbfbfb;
+    direction: rtl;
+    font-family: 'vazir';
+}
+li{
+    list-style: none;
+}
+a,a :hover{
+    text-decoration: none;
+}
+.main-menu{
+    height: 70px;
+    background-color: rgb(194, 255, 235);
+
+}
+.main-menu .meun-items .ul .li{
+    display: inline-block;
+    margin-left: 13px;
+}
+.main-menu .meun-items .ul .li .a{
+    padding: 25px 0;
+    display: inline-block;
+    color: aquamarine;
+}
